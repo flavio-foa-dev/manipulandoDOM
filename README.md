@@ -1,11 +1,13 @@
 # robotron-2000O
-- DOM (Document Object Model) e o JavaScript, juntos, possuem grande poder de modificar dinamicamente a estrutura de um documento HTML. Sendo possível, por exemplo:
+- DOM (Document Object Model)
+- E o JavaScript, juntos, possuem grande poder de modificar dinamicamente a estrutura de um documento HTML.
+-  Sendo possível, por exemplo:
 
-Adicionar/modificar/remover tags, textos, imagens e qualquer elemento no HTML.
-Alterar estilos CSS da página.
-Criar novos eventos HTML.
-Vamos conferir formas de realizar os itens listados no tópico acima.
-
+- Adicionar/modificar/remover tags, textos, imagens e qualquer elemento no HTML.
+- Alterar estilos CSS da página.
+- Criar novos eventos HTML.
+-
+   formas
 ### Métodos para selecionar elementos no HTML
 document.getElementByID(id) - Selecionar um elemento pelo ID.
 document.getElementsByTagName(name) - Selecionar um elemento pelo nome.
