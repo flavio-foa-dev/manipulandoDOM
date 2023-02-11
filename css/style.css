@@ -9,7 +9,7 @@
 }
 
 body {
-    background: url(../img/fundo.jpg);
+    background: rebeccapurple;
     background-position: center center;
     background-size: cover cover;
     padding: 0;
@@ -41,7 +41,7 @@ main {
     height: 110%;
     z-index: 1;
     position: absolute;
-    left: -20%;
+    left: -15%;
     top: -5%;
 }
 
@@ -69,6 +69,7 @@ main {
 
 .equipamentos {
     flex-basis: 32%;
+    height: 120%;
 }
 
 .montador {
@@ -208,9 +209,19 @@ main {
     flex-basis: 35%;
     margin: 10px 0 0;
 }
+.contenier-btn{
+    display: flex;
+    margin-left: 60px;
+    gap: 10px;
+    position: relative;
+}
+.alterar{
+    margin: 2px;
+    width: 70px;
+}
 
 @media screen and (max-width: 1600px) {
-    body { 
+    body {
         font-size: 14px;
     }
     main {
@@ -221,7 +232,7 @@ main {
 }
 
 @media screen and (max-width: 1200px) {
-    body { 
+    body {
         font-size: 13px;
     }
 
